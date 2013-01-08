@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+<title>Brawl Dynamics</title>
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-26981727-1']);
+  _gaq.push(['_setDomainName', 'cathyjf.com']);
+  _gaq.push(['_setAllowLinker', true]);
+  _gaq.push(['_trackPageview']);
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+  function trackLink(category) {
+    try {
+      var href = $(this).attr('href');
+      _gaq.push([ '_trackEvent', category, href ]);
+      setTimeout('document.location = "' + href + '"', 100);
+      return false;
+    } catch (err) { }
+  }
+</script>
+<style type="text/css">
+body {
+  margin-left: 25px;
+}
+</style>
+</head>
+<body>
+<h1>Brawl Dynamics</h1>
+
+<p>This is a basic physics simulator for Super Smash Bros. Brawl.</p>
+
+<object type="application/x-java-applet" width="494" height="440">
+    <param name="code"
+        value="dynamics.SimulationApplet" />
+    <param name="archive"
+        value="java/BrawlDynamics.jar,java/lib/swing-layout-1.0.3.jar" />
+    This Applet requires a Java browser plugin. Make sure Java is enabled in
+    in your browser.
+</object>
+
+<p>
+See the <a href="https://github.com/cathyjf/BrawlDynamics"
+    onclick="return trackLink.call(this, 'Outbound Links');">GitHub repository</a>
+for more information and for the source code.
+</p>
+
+<p>
+&mdash; 
+<a href='https://cathyjf.com' onclick="_gaq.push(['_link', this.href]); return false;">
+Cathy Fitzpatrick
+</a>
+</p>
+
+</body>
+</html>
