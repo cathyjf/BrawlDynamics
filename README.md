@@ -25,7 +25,6 @@ required to build or use the program.
 Change into the directory where you cloned the repository and try
 
 ```bash
-# Build the program.
 ant jar
 ```
 
