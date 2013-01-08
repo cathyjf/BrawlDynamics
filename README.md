@@ -35,7 +35,7 @@ BUILD SUCCESSFUL
 Total time: 3 seconds
 ```
 
-After building the program, a `dist` created has been created which contains
+After building the program, a `dist` directory has been created which contains
 `dist/BrawlDynamics.jar` (the program itself) and
 `dist/lib/swing-layout-1.0.4.jar` (a standard library used by the program).
 
