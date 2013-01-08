@@ -1,10 +1,13 @@
 # Brawl Dynamics
 
-This Applet provides a basic simulation of the physics of Super Smash Bros. Brawl. It was created by [Cathy Fitzpatrick][cathyjf] in January 2009 and is based on what was known about Brawl mechanics at that time. As such, it may not be completely accurate, but it does provide an approximation of the physics.
+This Applet provides a basic simulation of the physics of Super Smash Bros.
+Brawl. It was created by [Cathy Fitzpatrick][cathyjf] in January 2009 and is
+based on what was known about Brawl mechanics at that time. As such, it may
+not be completely accurate, but it does provide an approximation of the physics.
 
 ## Try the applet
 
-TODO
+You can [try the Applet in your browser][applet] right now.
 
 ## Theory
 
@@ -67,6 +70,7 @@ version 3 or later.
 + [Cathy Fitzpatrick][cathyjf] (cathyjf) created this program.
 
 
+[applet]: http://cathyjf.github.com/BrawlDynamics/
 [OpenJDK]: http://openjdk.java.net
 [Apache Ant]: https://ant.apache.org/
 [agpl3]: http://www.fsf.org/licensing/licenses/agpl-3.0.html
