@@ -1,6 +1,6 @@
 # Brawl Dynamics
 
-This Applet provides a basic simulation of the physics of Super Smash Bros. Brawl. It was created in by [Cathy Fitzpatrick][cathyjf] in January 2009 and is based on what was known about Brawl mechanics at that time. As such, it may not be completely accurate, but it does provide an approximation of the physics.
+This Applet provides a basic simulation of the physics of Super Smash Bros. Brawl. It was created by [Cathy Fitzpatrick][cathyjf] in January 2009 and is based on what was known about Brawl mechanics at that time. As such, it may not be completely accurate, but it does provide an approximation of the physics.
 
 ## Try the applet
 
