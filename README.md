@@ -14,6 +14,7 @@ following two articles:
   by [Cathy J. Fitzpatrick][cathyjf] and Amazing Ampharos ([Chris Immele][AA]),
   dated December 13, 2008
 
+
 + "[Brawl Dynamics: Velocity, Forces, Knockback][brawl-dynamics]"<br />
   by [Cathy J. Fitzpatrick][cathyjf], dated January 18, 2008
 
