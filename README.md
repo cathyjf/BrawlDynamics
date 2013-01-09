@@ -1,17 +1,25 @@
 # Brawl Dynamics
 
 This Applet provides a basic simulation of the physics of Super Smash Bros.
-Brawl. It was created by [Cathy Fitzpatrick][cathyjf] in January 2009 and is
+Brawl. It was created by [Cathy J. Fitzpatrick][cathyjf] in January 2009 and is
 based on what was known about Brawl mechanics at that time. As such, it may
 not be completely accurate, but it does provide an approximation of the physics.
+
+## Theory
+
+The theory behind the physics simulated by this program comes from the
+following two articles:
+
++ "[Brawl Mechanics: Damage & Knockback Formulae][brawl-mechanics]" by
+  [Cathy J. Fitzpatrick][cathyjf] and Amazing Ampharos ([Chris Immele][AA]),
+  dated December 13, 2008
+
++ "[Brawl Dynamics: Velocity, Forces, Knockback][brawl-dynamics]" by
+  Cathy J. Fitzpatrick][cathyjf], dated January 18, 2008
 
 ## Try the applet
 
 You can [try the Applet in your browser][applet] right now.
-
-## Theory
-
-TODO
 
 ## How to compile and run your own copy of the Applet
 
@@ -64,11 +72,13 @@ version 3 or later.
 
 ## Credits
 
-+ [Cathy Fitzpatrick][cathyjf] (cathyjf) created this program.
++ [Cathy J. Fitzpatrick][cathyjf] (cathyjf) created this program.
 
-
+[brawl-mechanics]: https://cathyjf.com/brawl/brawl-mechanics-2008-12-13.pdf
+[brawl-dynamics]: https://cathyjf.com/brawl/brawl-dynamics-2009-01-18.pdf
 [applet]: http://cathyjf.github.com/BrawlDynamics/
 [OpenJDK]: http://openjdk.java.net
 [Apache Ant]: https://ant.apache.org/
 [agpl3]: http://www.fsf.org/licensing/licenses/agpl-3.0.html
 [cathyjf]: https://cathyjf.com
+[AA]: http://www.smashboards.com/member.php?userid=88497
