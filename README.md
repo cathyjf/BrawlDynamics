@@ -10,13 +10,11 @@ not be completely accurate, but it does provide an approximation of the physics.
 The theory behind the physics simulated by this program comes from the
 following two articles:
 
-+ "[Brawl Mechanics: Damage & Knockback Formulae][brawl-mechanics]"<br />
-  by [Cathy J. Fitzpatrick][cathyjf] and Amazing Ampharos ([Chris Immele][AA]),
-  dated December 13, 2008
++ "[Brawl Mechanics: Damage & Knockback Formulae][brawl-mechanics]"
+  by [Cathy J. Fitzpatrick][cathyjf] and Amazing Ampharos ([Chris Immele][AA])
 
-
-+ "[Brawl Dynamics: Velocity, Forces, Knockback][brawl-dynamics]"<br />
-  by [Cathy J. Fitzpatrick][cathyjf], dated January 18, 2008
++ "[Brawl Dynamics: Velocity, Forces, Knockback][brawl-dynamics]"
+  by [Cathy J. Fitzpatrick][cathyjf]
 
 ## Try the applet
 
