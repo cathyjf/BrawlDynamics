@@ -44,21 +44,18 @@ After building the program, a `dist` directory has been created which contains
 
 ### Embed the Applet in a web page
 
-You can embed the Applet in a web page with the following HTML5 snippet:
+You can embed the Applet in a web page with the following HTML snippet:
 
 ```html
 <object type="application/x-java-applet" width="494" height="440">
-    <param name="code"
-        value="dynamics.SimulationApplet" />
-    <param name="archive"
-        value="dist/BrawlDynamics.jar,dist/lib/swing-layout-1.0.3.jar" />
+    <param name="code" value="dynamics.SimulationApplet" />
+    <param name="archive" value="dist/BrawlDynamics.jar" />
     This Applet requires a Java browser plugin.
 </object>
 ```
 
-You will have to change the path of `dist/BrawlDynamics.jar` and
-`dist/lib/swing-layout-1.0.4.jar` in the second `<param>` tag if those files
-are located somewhere else relative to the HTML page.
+Note that the file `dist/lib/swing-layout-1.0.4.jar` must be present for this
+to work, even though it is not mentioned by name in the HTML code.
 
 ## Licence
 
