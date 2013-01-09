@@ -3,7 +3,6 @@
 <head>
 <meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
 <title>Brawl Dynamics</title>
-<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
 <script type="text/javascript">
   var _gaq = _gaq || [];
   _gaq.push(['_setAccount', 'UA-26981727-1']);
@@ -17,9 +16,8 @@
   })();
   function trackLink(category) {
     try {
-      var href = $(this).attr('href');
-      _gaq.push([ '_trackEvent', category, href ]);
-      setTimeout('document.location = "' + href + '"', 100);
+      _gaq.push([ '_trackEvent', category, this.href ]);
+      setTimeout('document.location = "' + this.href + '"', 100);
       return false;
     } catch (err) { }
   }
