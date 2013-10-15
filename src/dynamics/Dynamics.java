@@ -47,12 +47,12 @@ public class Dynamics {
         double sx = 0, sy = 0;
         double c = 0.00010062893081761f;
         int frame = 0;
-        Character lucas = Character.getCharacter("Dedede");
+        Character dedede = Character.getCharacter("Dedede");
         do {
             ++frame;
             int[] v = getVelocity(6000, Math.PI/4,
-                    lucas.getFallAcceleration(),
-                    lucas.getTopFallSpeed(), frame);
+                    dedede.getFallAcceleration(),
+                    dedede.getTopFallSpeed(), frame);
             sx += v[0];
             sy += v[1];
             System.out.println("(" + Math.round(sx * c * 100) / 100.0
